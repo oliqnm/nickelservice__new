@@ -30,9 +30,9 @@
         @yield('content')
     </main>
 
-  
+    
+    @include('partials.footer')
+    
 </body>
-
-@include('partials.footer')
 
 </html>

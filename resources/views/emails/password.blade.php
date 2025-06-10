@@ -5,4 +5,4 @@
         
         <hr style="margin-top: 30px;">
         <p style="font-size: 12px; color: #888;">Ce message a été envoyé automatiquement depuis votre site.</p>
-    </div>
+</div>

@@ -14,7 +14,7 @@ Route::get('/', function () {
 
 
 
-Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::get('/', [ContactController::class, 'showForm'])->name('contact.form');
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 
 Route::get('/password', [PasswordController::class, 'showForm'])->name('password.form');
