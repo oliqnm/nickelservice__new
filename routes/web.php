@@ -8,9 +8,6 @@ use App\Http\Controllers\ConnexionController;
 use App\Http\Controllers\MessageController;
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 
 
