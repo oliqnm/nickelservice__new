@@ -10,6 +10,10 @@ use App\Http\Controllers\MessageController;
 
 
 
+Route::get('/migrate', function () {
+    Artisan::call('migrate --force');
+    return 'Migration OK';
+});
 
 Route::get('/', [ContactController::class, 'showForm'])->name('contact.form');
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
